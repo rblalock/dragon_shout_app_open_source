@@ -15,6 +15,10 @@ for Skyrim / Oblivion / Morrowind / Elder Scrolls Online.  Some info about the a
 The quickest way to see how this works is to go to the app store and try it out:
 [App Store Link](https://itunes.apple.com/us/app/dragon-shout-app-2/id690208182?ls=1&mt=8)
 
+## Support the Project
+
+Hey so it's cool and all that this is now open source.  Consider supporting this project by [downloading the app in the app store](https://itunes.apple.com/us/app/dragon-shout-app-2/id690208182?ls=1&mt=8).
+
 ## Quick Installation
 
 There's only a few things you'll need to do to get the app up and running.
