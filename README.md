@@ -9,6 +9,9 @@ for Skyrim / Oblivion / Morrowind / Elder Scrolls Online.  Some info about the a
 - Featured on TouchArcade, USA Today, Joystiq, and many more
 - Over 100K community searchable markers
 
+Follow me via:
+https://twitter.com/dragonshoutapp && https://twitter.com/rblalock
+
 ## See a quick preview
 
 The quickest way to see how this works is to go to the app store and try it out:
