@@ -1,0 +1,89 @@
+{
+    "global": {
+	    "Parse": {
+		    "applicationId": "",
+		    "restKey": "",
+		    "url": "https://api.parse.com/1/"
+	    },
+        "Map": {
+            "defaultMap": 0,
+            "maps": [
+	            {
+	                "name": "Skyrim",
+		            "id": "skyrim",
+	                "image": "skyrim.jpg",
+	                "width": 3000,
+	                "height": 2121
+				}
+            ],
+            "mapType": "scrollView"
+        },
+        "Menu": {
+            "primaryItems": [
+	            {
+	                "name": "Maps",
+	                "type": "maps",
+	                "icon": "iconQuest.png"
+	            },
+	            {
+                    "name": "Search",
+                    "type": "search",
+                    "icon": "iconFilter.png"
+                }
+            ],
+            "secondaryItems": [
+	            {
+	                "name": "User",
+	                "type": "userProfile",
+	                "icon": "iconParty.png"
+                },
+	            {
+	                "name": "Settings",
+	                "type": "settings",
+	                "icon": "iconSettings.png"
+                }
+            ]
+        },
+		"markerTypes": [
+			"Quest",
+			"Battle",
+			"Item",
+			"Special",
+			"Location",
+			"Story",
+			"Epic",
+			"Other"
+		],
+		"icons": {
+			"quest": "103-map.png",
+			"battle": "251-sword.png",
+			"item": "115-bow-and-arrow.png",
+			"commerce": "294-macroflower.png",
+			"special": "281-crown.png",
+			"location": "131-tower.png",
+			"story": "71-compass.png",
+			"epic": "134-viking.png",
+			"other": "96-book.png",
+			"folder": "96-book.png"
+		},
+	    "markerColors": {
+		    "friend": "#1B8913",
+		    "community": "#593717",
+		    "favorite": "#0A5E92"
+	    },
+	    "tutorial": {
+		    "steps": 5
+	    }
+    },
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:ios": {},
+    "os:android": {},
+    "dependencies": {
+        "map": "1.0",
+        "menu": "1.0",
+        "contentBlade": "1.0",
+        "messageBar": "1.0"
+    }
+}

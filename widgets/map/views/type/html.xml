@@ -1,0 +1,5 @@
+<Alloy>
+    <View id="wrapper">
+        <WebView id="map" />
+    </View>
+</Alloy>

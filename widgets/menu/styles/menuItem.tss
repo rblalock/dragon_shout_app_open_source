@@ -1,0 +1,20 @@
+"#wrapper": {
+	backgroundGradient: {
+		type: "linear",
+		colors: [
+			{ color: "#222", position: 0.0 },
+			{ color: "#111", position: 1.0 }
+		],
+		startPoint: { x: 0, y: 0 },
+		endPoint: { x: 0, y: 36 }
+	},
+	width: 36,
+	height: 36,
+	top: 5,
+	borderRadius: 7
+},
+"#icon": {
+	width: 36,
+	height: 36,
+	touchEnabled: false
+}

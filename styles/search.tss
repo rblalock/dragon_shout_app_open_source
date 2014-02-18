@@ -1,0 +1,31 @@
+"#contentArea": {
+	top: 10,
+	left: 10,
+	right: 60,
+	opacity: 0,
+	height: Ti.UI.SIZE,
+	layout: "vertical"
+},
+"#wrapper": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	top: 0
+},
+"TextField": {
+	width: Ti.UI.FILL,
+	height: 40,
+	right: 10,
+	left: 10,
+	paddingLeft: 10,
+	paddingRight: 10,
+	backgroundColor: "transparent",
+	color: "#fff",
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	autocorrect: false,
+	returnKeyType: Ti.UI.RETURNKEY_SEARCH,
+	font: { fontFamily: "Optima", fontSize: 16 },
+},
+".border": {
+	height: 1,
+    borderColor: "#111"
+}

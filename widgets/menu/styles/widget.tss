@@ -1,0 +1,25 @@
+"#wrapper": {
+	width: 46,
+	height: Ti.UI.SIZE,
+	left: 10,
+	bottom: 10,
+	layout: "vertical"
+},
+"#secondaryMenu": {
+	layout: "vertical",
+	left: 0,
+	width: 46,
+	height: Ti.UI.SIZE,
+	backgroundImage: "images/menu/opaqueBlack70.png",
+	borderRadius: 10,
+	bottom: 0
+},
+"#primaryMenu": {
+	layout: "vertical",
+	left: 0,
+	width: 46,
+	height: Ti.UI.SIZE,
+	backgroundImage: "images/menu/opaqueBlack70.png",
+	borderRadius: 10,
+	bottom: 5
+}

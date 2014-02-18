@@ -1,0 +1,54 @@
+"#window": {
+	title: "Create Account",
+	modal: true,
+	backgroundColor: "#eee"
+},
+"TextField": {
+	width: Ti.UI.FILL,
+	height: 35,
+	paddingRight: 10,
+	paddingLeft: 10,
+	left: 10,
+	right: 10,
+	backgroundColor: "#fff",
+	returnKeyType: Ti.UI.RETURNKEY_NEXT,
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	autocorrect: false
+},
+"#email": {
+	top: 10
+},
+"#passwordCheck": {
+	bottom: 10
+},
+".border": {
+	height: 1,
+	borderColor: "#ccc",
+	left: 10,
+	right: 10
+},
+"#signUp": {
+	width: Ti.UI.FILL,
+	height: 45,
+	backgroundColor: "#1B8913",
+	backgroundImage: "transparent",
+	left: 10,
+	right: 10,
+	top: 10
+},
+"#content": {
+	layout: "vertical",
+	left: 10,
+	right: 10,
+	bottom: 10
+},
+".title": {
+	width: Ti.UI.FILL,
+	height: 45,
+	textAlign: "left"
+},
+".textBody": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	textAlign: "left"
+}

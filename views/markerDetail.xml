@@ -1,0 +1,35 @@
+<Alloy>
+	<View id="wrapper">
+		<Require id="close" src="ui/close" />
+		<Require id="title" src="ui/title" title="Marker" />
+
+		<View id="iconWrapper">
+			<View id="deleteWrapper" class="icon">
+				<View id="deleteIcon" />
+			</View>
+			<View id="profileWrapper" class="icon">
+				<ImageView id="profileImage" />
+			</View>
+			<View id="favoriteWrapper" class="icon">
+				<View id="favoriteIcon" />
+			</View>
+			<View id="commentWrapper" class="icon">
+				<View id="commentIcon" />
+			</View>
+		</View>
+
+		<ScrollView id="contentArea" class="bodyWrapper">
+			<View id="selectWrapper">
+				<Require id="markerType" src="ui/selectBox" title="Quest" />
+				<View width="1" />
+				<Require id="share" src="ui/selectBox" title="Public" />
+			</View>
+			<TextArea id="notes" />
+		</ScrollView>
+
+		<View id="buttonWrapper">
+			<Button id="cancel" title="Back" />
+			<Button id="save" title="Save" />
+		</View>
+	</View>
+</Alloy>

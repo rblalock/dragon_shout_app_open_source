@@ -1,0 +1,9 @@
+<Alloy>
+	<View id="wrapper">
+		<Require id="close" src="ui/close" />
+		<View id="contentArea" class="bodyWrapper">
+			<TextField id="searchField" hintText="search keyword(s) here" />
+			<!--<View class="border" />-->
+		</View>
+	</View>
+</Alloy>

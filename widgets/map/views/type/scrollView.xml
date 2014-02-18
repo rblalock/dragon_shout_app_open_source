@@ -1,0 +1,6 @@
+<Alloy>
+	<ScrollView id="wrapper">
+		<ImageView id="map" />
+		<View id="markerLayer" />
+	</ScrollView>
+</Alloy>

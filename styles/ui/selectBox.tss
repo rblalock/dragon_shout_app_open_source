@@ -1,0 +1,8 @@
+"#wrapper": {
+	backgroundColor: "black",
+	borderRadius: 10
+},
+"#title": {
+	color: "#fff",
+	touchEnabled: false
+}

@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="wrapper">
+		<View id="primaryMenu" />
+		<View id="secondaryMenu" />
+	</View>
+</Alloy>

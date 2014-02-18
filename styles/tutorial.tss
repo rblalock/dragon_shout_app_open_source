@@ -1,0 +1,8 @@
+"Window": {
+	backgroundColor: "#000",
+	opacity: 0.8
+},
+"#tutorial": {
+	showPagingControl: true,
+	pagingControlAlpha: 0.8
+}

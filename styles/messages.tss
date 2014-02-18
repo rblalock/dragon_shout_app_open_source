@@ -1,0 +1,7 @@
+"#window": {
+	title: "Messages",
+	modal: true
+},
+"#messageList": {
+	editable: true
+}

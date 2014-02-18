@@ -1,0 +1,12 @@
+<Alloy>
+	<View id="wrapper">
+		<Require id="close" src="ui/close" />
+		<Require id="title" src="ui/title" title="Settings" />
+
+		<ScrollView id="contentArea">
+			<Button id="tutorial">Tutorial</Button>
+			<Button id="feedback">Send Feedback</Button>
+			<Button id="credits">Credits</Button>
+		</ScrollView>
+	</View>
+</Alloy>

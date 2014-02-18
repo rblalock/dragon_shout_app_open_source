@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="wrapper">
+		<Label id="x" class="bold" />
+	</View>
+</Alloy>

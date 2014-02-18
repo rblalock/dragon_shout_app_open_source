@@ -1,0 +1,15 @@
+<Alloy>
+	<NavigationWindow id="navWindow">
+		<Window id="window">
+			<RightNavButton>
+	            <Button id="closeButton">Close</Button>
+	        </RightNavButton>
+
+			<View id="wrapper">
+				<TableView id="messageList">
+					<TableViewRow title="Loading..." />
+				</TableView>
+			</View>
+		</Window>
+	</NavigationWindow>
+</Alloy>

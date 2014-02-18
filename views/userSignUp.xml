@@ -1,0 +1,30 @@
+<Alloy>
+	<NavigationWindow id="navWindow">
+		<Window id="window">
+			<RightNavButton>
+	            <Button id="closeButton">Close</Button>
+	        </RightNavButton>
+
+			<ScrollView id="wrapper" layout="vertical">
+				<TextField id="email" hintText="email..." />
+				<View class="border" />
+				<TextField id="username" hintText="username..." />
+				<View class="border" />
+				<TextField id="password" hintText="password..." />
+				<View class="border" />
+				<TextField id="passwordCheck" hintText="password one more time..." />
+
+				<Button id="signUp">Create Account</Button>
+
+				<View id="content">
+					<Label id="accountTitle" class="title bold">Why create an account?</Label>
+					<Label id="accountExplanation" class="textBody">- Social sharing of your markers\n- Commenting and conversation with the ES community\n- Party / Friend people to track their progress throughout their journeys</Label>
+
+					<Label class="title bold">Why we ask for an email address:</Label>
+					<Label class="textBody">We will never share your email with anyone.  It's used for the following reasons:</Label>
+					<Label class="textBody">\n- Your gravatar.com image (upload one to gravatar to associate a profile pic with your account)\n- Password reset if ever needed\nThat's it!</Label>
+				</View>
+			</ScrollView>
+		</Window>
+	</NavigationWindow>
+</Alloy>

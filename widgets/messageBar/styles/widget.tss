@@ -1,0 +1,103 @@
+"#wrapper": {
+	left: 0,
+	bottom: 0,
+	height: 43,
+	width: "100%",
+	backgroundGradient: {
+		type: "linear",
+		colors: [
+			{ color: "#222", position: 0.0 },
+			{ color: "#111", position: 1.0 }
+		],
+		startPoint: { x: 0, y: 0 },
+		endPoint: { x: 0, y: 43 }
+	}
+},
+"#barTitle": {
+	color: "#888",
+	font: {
+		fontSize: 12,
+		fontWeight: "bold"
+	},
+	top: 8,
+	left: 10,
+	height: 12,
+	touchEnabled: false,
+	shadowColor: "#000",
+	shadowOffset: {
+		x: 0,
+		y: 1
+	},
+	touchEnabled: false
+},
+"#barMessage": {
+	color: "#FFF",
+	font: {
+		fontSize: 12
+	},
+	bottom: 8,
+	left: 10,
+	right: 40,
+	height: 12,
+	touchEnabled: false,
+	shadowColor: "#000",
+	shadowOffset: {
+		x: 0,
+		y: 1
+	},
+	touchEnabled: false
+},
+"#barBadge": {
+	backgroundColor: "#FFF",
+	width: Ti.UI.SIZE,
+	height: 23,
+	borderRadius: 6,
+	right: 10,
+	top: 10,
+	touchEnabled: false
+},
+"#barBadgeBackground": {
+	backgroundColor: "#CD0306",
+	backgroundGradient: {
+		type: "linear",
+		colors: [
+			{ color: "#F0636A", position: 0.0 },
+			{ color: "#DF0912", position: 1.0 }
+		],
+		startPoint: { x: 0, y: 0 },
+		endPoint: { x: 0, y: 10 }
+	},
+	width: Ti.UI.SIZE,
+	height: 19,
+	borderRadius: 5,
+	left: 2,
+	right: 2,
+	top: 2,
+	touchEnabled: false
+},
+"#barBadgeCount": {
+	color: "#FFF",
+	font: {
+		fontSize: 17,
+		fontWeight: "bold"
+	},
+	width: Ti.UI.SIZE,
+	height: 19,
+	textAlign: "center",
+	left: 3,
+	right: 3,
+	shadowColor: "#000",
+	shadowOffset: {
+		x: 0,
+		y: 1
+	},
+	touchEnabled: false
+},
+"#barSpinner": {
+	height: 21,
+	width: 21,
+	right: 10,
+	top: 11,
+	opacity: 0,
+	touchEnabled: false
+}

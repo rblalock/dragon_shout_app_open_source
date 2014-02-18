@@ -1,0 +1,7 @@
+"#window": {
+	title: "Friend Requests",
+	modal: true
+},
+"#messageList": {
+	editable: true
+}

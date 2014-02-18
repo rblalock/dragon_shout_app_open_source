@@ -1,0 +1,8 @@
+<Alloy>
+	<View id="wrapper">
+		<Require id="close" src="ui/close" />
+		<Require id="title" src="ui/title" title="Maps" />
+
+		<ScrollView id="contentArea" />
+	</View>
+</Alloy>

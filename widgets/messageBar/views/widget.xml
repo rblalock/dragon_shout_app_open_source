@@ -1,0 +1,12 @@
+<Alloy>
+	<View id="wrapper">
+		<Label id="barTitle" text="No Messages At This time" />
+		<Label id="barMessage" text="" />
+		<View id="barBadge">
+			<View id="barBadgeBackground">
+				<Label id="barBadgeCount" text="0" />
+			</View>
+		</View>
+		<ActivityIndicator id="barSpinner" />
+	</View>
+</Alloy>

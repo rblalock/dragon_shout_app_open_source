@@ -1,0 +1,21 @@
+"#wrapper[formFactor=tablet]": {
+	width: "65%",
+	height: "65%"
+},
+"#contentArea": {
+	top: 75,
+	opacity: 0,
+	layout: "vertical",
+	height: Ti.UI.SIZE
+},
+"Button": {
+	height: 45,
+	backgroundColor: "#111",
+	backgroundImage: "transparent",
+	width: Ti.UI.FILL
+},
+"Label": {
+	color: "#fff",
+	textAlign: "center",
+	font: { fontSize: "11px" }
+}

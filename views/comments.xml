@@ -1,0 +1,14 @@
+<Alloy>
+	<NavigationWindow id="navWindow">
+		<Window id="window">
+			<RightNavButton>
+	            <Button id="closeButton">Close</Button>
+	        </RightNavButton>
+
+			<View id="wrapper" layout="vertical">
+				<TextField id="commentArea" />
+				<TableView id="commentList" />
+			</View>
+		</Window>
+	</NavigationWindow>
+</Alloy>

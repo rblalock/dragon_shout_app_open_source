@@ -1,0 +1,127 @@
+"#wrapper[formFactor=tablet]": {
+	width: "65%",
+	height: "65%"
+},
+"#contentArea": {
+	top: 75,
+	opacity: 0,
+	bottom: 10,
+	layout: "vertical"
+},
+"#authenticationWrapper": {
+	layout: "vertical"
+},
+"#loginWrapper": {
+	layout: "vertical",
+	height: Ti.UI.SIZE,
+	top: 10,
+	right: 10,
+	left: 10
+},
+"#signUpWrapper": {
+	layout: "vertical",
+	height: Ti.UI.SIZE,
+	top: 10,
+	right: 10,
+	left: 10
+},
+"Button": {
+	height: 45,
+	backgroundColor: "black",
+	backgroundImage: "NONE",
+	width: Ti.UI.FILL
+},
+"Label": {
+	color: "#fff",
+	textAlign: "center",
+	font: { fontSize: "11px" }
+},
+".fieldKey": {
+	left: 10
+},
+"TextField": {
+	width: Ti.UI.FILL,
+	height: 35,
+	top: 5,
+	right: 10,
+	left: 10,
+	bottom: 5,
+	paddingLeft: 10,
+	paddingRight: 10,
+	backgroundColor: "transparent",
+	borderWidth: 1,
+	borderColor: "#333",
+	color: "#fff",
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	autocorrect: false,
+	returnKeyType: Ti.UI.RETURNKEY_NEXT
+},
+"#password": {
+	returnKeyType: Ti.UI.RETURNKEY_GO
+},
+"#signUp": {
+	top: 10
+},
+".border": {
+	height: 1,
+	borderColor: "#111"
+},
+"#login": {
+	backgroundColor: "#1B8913"
+},
+"#forgotPasswordButton": {
+	top: 10,
+	left: 10,
+	right: 10
+},
+"#profilePic": {
+	width: 50,
+	height: 50,
+	left: 20,
+	top: 20
+},
+"#profileUsername": {
+	left: 80,
+	width: Ti.UI.SIZE,
+	height: 50,
+	top: 20,
+	font: { fontFamily: "Optima", fontWeight: "bold", fontSize: 18 },
+	color: "#fff"
+},
+"#logout": {
+	bottom: 0
+},
+"#profileNavigation": {
+	layout: "vertical",
+	top: 90,
+	left: 20,
+	right: 20,
+	bottom: 55
+},
+".profileButton": {
+	bottom: 1
+},
+"#iconWrapper": {
+	width: Ti.UI.FILL,
+	height: 40,
+	top: 10,
+	left: 70,
+	right: 55,
+	opacity: 0
+},
+".icon": {
+	width: 40,
+	height: 40,
+	backgroundColor: "#111",
+	borderRadius: 10,
+	opacity: 0.8,
+},
+"#requestWrapper": {
+	right: 0
+},
+"#requestIcon": {
+	backgroundImage: "/images/icons/112-group.png",
+	width: 32,
+	height: 21,
+	touchEnabled: false
+}

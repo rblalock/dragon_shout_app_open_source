@@ -1,0 +1,22 @@
+"#wrapper": {
+	opacity: 0,
+	width: Ti.UI.SIZE,
+	height: 40,
+	left: -50,
+	backgroundColor: "#111",
+	borderRadius: 10,
+	top: 10
+},
+"#wrapper[formFactor=tablet]": {
+	left: 0
+},
+"#title": {
+	color: "#fff",
+	left: 30,
+	right: 20,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+},
+"#title[formFactor=tablet]": {
+	left: 20
+}

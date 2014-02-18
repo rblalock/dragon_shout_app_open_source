@@ -1,0 +1,14 @@
+"#window": {
+	title: "Comments",
+	modal: true
+},
+"#commentArea": {
+	visible: false,
+	width: Ti.UI.FILL,
+	height: 35,
+	paddingLeft: 5,
+	paddingRight: 5,
+	hintText: "enter your comment here...",
+	backgroundColor: "#eee",
+	returnKeyType: Ti.UI.RETURNKEY_SEND
+}

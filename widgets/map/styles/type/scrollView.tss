@@ -1,0 +1,17 @@
+"#wrapper": {
+	contentWidth: "auto",
+	contentHeight: "auto",
+	showVerticalScrollIndicator: false,
+	showHorizontalScrollIndicator: false,
+	horizontalBounce: false,
+	verticalBounce: false,
+	maxZoomScale: 3.0,
+	minZoomScale: 0.3,
+	canCancelEvents: true,
+	backgroundColor: "#000",
+	disableBounce: true,
+	zoomScale: 0.6
+},
+"#wrapper[formFactor=tablet]": {
+	minZoomScale: 0.6
+}

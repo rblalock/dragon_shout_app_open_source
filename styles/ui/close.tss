@@ -1,0 +1,17 @@
+"#wrapper": {
+	opacity: 0,
+	width: 40,
+	height: 40,
+	top: 10,
+	right: 10,
+	backgroundColor: "#111",
+	borderRadius: 10
+},
+"#x": {
+	text: "X",
+	color: "#fff",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	textAlign: "center",
+	touchEnabled: false
+}

@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="window">
+		<ScrollableView id="tutorial" />
+		<Require id="close" src="ui/close" />
+	</Window>
+</Alloy>

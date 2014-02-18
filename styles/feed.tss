@@ -1,0 +1,14 @@
+"#window": {
+	title: "Community Feed",
+	modal: true
+},
+"#tabbedBar": {
+	style: Ti.UI.iPhone.SystemButtonStyle.BAR,
+	backgroundColor: "#fff",
+	width: Ti.UI.FILL,
+	height: 35,
+	top: 5,
+	left: 5,
+	right: 5,
+	index: 0
+}

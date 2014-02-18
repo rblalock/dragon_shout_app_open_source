@@ -1,0 +1,20 @@
+<Alloy>
+	<NavigationWindow id="navWindow">
+		<Window id="window">
+			<RightNavButton>
+	            <Button id="closeButton">Close</Button>
+	        </RightNavButton>
+
+			<View id="wrapper" layout="vertical">
+				<TabbedBar id="tabbedBar">
+			       <Labels>
+			           <Label enabled="true">Community</Label>
+			           <Label>Comments</Label>
+			       </Labels>
+				</TabbedBar>
+
+				<TableView id="list" />
+			</View>
+		</Window>
+	</NavigationWindow>
+</Alloy>

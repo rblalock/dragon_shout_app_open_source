@@ -1,0 +1,46 @@
+<Alloy>
+	<View id="wrapper">
+		<Require id="close" src="ui/close" />
+		<Require id="title" src="ui/title" title="Social" />
+
+		<View id="iconWrapper">
+			<View id="requestWrapper" class="icon">
+				<View id="requestIcon" />
+			</View>
+		</View>
+
+		<View id="contentArea" class="bodyWrapper">
+			<View id="authenticationWrapper">
+				<View id="loginWrapper">
+					<Label class="fieldKey">username</Label>
+					<TextField id="username" />
+					<View class="border" />
+					<Label class="fieldKey">password</Label>
+					<TextField id="password" />
+					<Button id="login">Login</Button>
+				</View>
+
+				<View id="signUpWrapper">
+					<Label id="signUpText">Don't have an account?  Create an account to start sharing your journeys!</Label>
+					<Button id="signUp">Create Account</Button>
+				</View>
+
+				<Button id="forgotPasswordButton">Forgot your password?</Button>
+			</View>
+
+			<View id="profileWrapper">
+				<ImageView id="profilePic" />
+				<Label id="profileUsername" />
+
+				<View id="profileNavigation">
+					<Button id="wall" class="profileButton">Community Activity</Button>
+					<Button id="friends" class="profileButton">Friends</Button>
+					<Button id="messages" class="profileButton">Messages</Button>
+					<Button id="editProfile" class="profileButton">Profile</Button>
+				</View>
+
+				<Button id="logout">Logout</Button>
+			</View>
+		</View>
+	</View>
+</Alloy>

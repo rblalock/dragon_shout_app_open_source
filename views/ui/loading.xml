@@ -1,0 +1,7 @@
+<Alloy>
+	<View id="wrapper">
+		<View id="loadingWrapper">
+			<ImageView id="loading" />
+		</View>
+	</View>
+</Alloy>

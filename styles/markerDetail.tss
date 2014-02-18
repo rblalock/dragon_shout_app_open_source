@@ -1,0 +1,108 @@
+"#contentArea": {
+	top: 65,
+	opacity: 0,
+	bottom: 55,
+	layout: "vertical",
+	height: Ti.UI.SIZE
+},
+"#wrapper[formFactor=tablet]": {
+	width: "65%",
+	height: "65%"
+},
+"#iconWrapper": {
+	width: Ti.UI.FILL,
+	height: 40,
+	top: 10,
+	left: 70,
+	right: 55,
+	opacity: 0
+},
+".icon": {
+	width: 40,
+	height: 40,
+	backgroundColor: "#111",
+	borderRadius: 10,
+	opacity: 0.8,
+},
+"#deleteWrapper": {
+	left: 0
+},
+"#commentWrapper": {
+	right: 0
+},
+"#favoriteWrapper": {
+	right: 45
+},
+"#profileWrapper": {
+	left: 0
+},
+"#profileImage": {
+	width: 30,
+	height: 30,
+	borderRadius: 5,
+	touchEnabled: false
+},
+"#deleteIcon": {
+	backgroundImage: "/images/icons/218-trash2.png",
+	width: 16,
+	height: 21,
+	touchEnabled: false
+},
+"#commentIcon": {
+	backgroundImage: "/images/icons/09-chat-2.png",
+	width: 24,
+	height: 22,
+	touchEnabled: false
+},
+"#favoriteIcon": {
+	backgroundImage: "/images/icons/28-star.png",
+	width: 26,
+	height: 26,
+	touchEnabled: false
+},
+"#notes": {
+	value: "marker notes...",
+	hintText: "marker notes...",
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	right: 10,
+	left: 10,
+	bottom: 10,
+	top: 10,
+	backgroundColor: "transparent",
+	color: "#fff",
+	font: { fontSize: 18 },
+	suppressReturn: false,
+	keyboardToolbarColor: "#000",
+    keyboardToolbarHeight: 40
+},
+"#selectWrapper": {
+	layout: "horizontal",
+	height: 45,
+	right: 10,
+	left: 10,
+	top: 10
+},
+"#buttonWrapper": {
+	height: 45,
+	bottom: -45,
+	opacity: 0,
+	layout: "horizontal"
+},
+"#buttonWrapper[formFactor=tablet]": {
+	width: Ti.UI.FILL,
+	left: 10,
+	right: 10
+},
+"Button": {
+	width: "50%",
+	height: 45,
+	backgroundColor: "black",
+	backgroundImage: "transparent"
+},
+"Button[formFactor=tablet]": {
+	width: "49%"
+},
+"#save": {
+	backgroundColor: "#1B8913"
+}

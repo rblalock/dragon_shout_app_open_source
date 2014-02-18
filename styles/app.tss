@@ -1,0 +1,26 @@
+"Label": {
+	font: { fontSize: 12 }
+},
+"TableViewRow": {
+	font: { fontSize: 12 }
+},
+"TextArea": {
+	font: { fontSize: 12 }
+},
+"TextField": {
+	font: { fontSize: 12 }
+},
+"Button": {
+	font: { fontWeight: "bold" }
+},
+".bold": {
+	font: { fontWeight: "bold" }
+},
+".bodyWrapper": {
+	left: 10,
+	right: 10,
+	bottom: 10,
+	backgroundColor: "#111",
+	opacity: 0.9,
+	borderRadius: 10
+}
