@@ -5,7 +5,7 @@
 This is an open source version of the popular [Dragon Shout App](https://itunes.apple.com/us/app/dragon-shout-app-2/id690208182?ls=1&mt=8)
 for Skyrim / Oblivion / Morrowind / Elder Scrolls Online.  Some info about the app:
 
-- [Ctrl+Alt+Del Featured Comic](http://www.cad-comic.com/cad/20111130/)
+- [Ctrl+Alt+Del Featured Comic](https://cad-comic.com/comic/staying-connected/)
 - Featured on TouchArcade, USA Today, Joystiq, and many more
 - Over 100K community searchable markers
 
